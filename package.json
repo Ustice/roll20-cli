@@ -1,0 +1,26 @@
+{
+  "name": "heward",
+  "version": "0.0.1",
+  "description": "A roll20 script build and deployment tool.",
+  "main": "./bin/cli.js",
+  "bin": {
+    "heward": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roll20"
+  ],
+  "author": "PrimarilySnark <starkey.joshua@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-transform-roll20": "^1.0.0",
+    "cookie": "^0.3.1",
+    "dotenv": "^6.2.0",
+    "jsdom": "^13.1.0",
+    "request": "^2.88.0",
+    "yargs": "^12.0.5"
+  }
+}
