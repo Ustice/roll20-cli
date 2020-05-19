@@ -48,7 +48,9 @@
           campaign: argv.campaign || process.env.ROLL20_CAMPAIGN,
           username: argv.username || process.env.ROLL20_USERNAME,
           password: argv.password || process.env.ROLL20_PASSWORD
-        }
+        },
+        output: 'heward.js',
+        watch: true,
       })
     })
 })()
